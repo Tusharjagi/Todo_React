@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background: rgb(229,170,195);
+background: linear-gradient(90deg, rgba(229,170,195,1) 17%, rgba(154,82,199,1) 62%);}
 
 @font-face {
   font-family: 'PermanentMarker-Regular';

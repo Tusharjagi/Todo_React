@@ -1,11 +1,14 @@
-input{
+input {
   position: relative;
   width: 50%;
   height: 40px;
-  margin:2%;
+  margin: 2%;
   margin-left: 25%;
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 24px;
+  font-family: PermanentMarker-Regular;
+  padding-left: 20px;
+  letter-spacing: 3px;
 }
 
 input::placeholder{

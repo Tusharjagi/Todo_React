@@ -1,11 +1,7 @@
-import './add-button.css'
+import "./add-button.css";
 
 const AddButton = () => {
-  return (
-    <div>
-      <button className="add-button">Add</button>
-    </div>
-  );
+  return <button className="add-button">Add</button>;
 };
 
 export default AddButton;

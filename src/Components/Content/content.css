@@ -1,3 +1,6 @@
 .content{
+  display: grid;
   border: solid grey 2px;
+  justify-items: center;
+  margin: 0% 10%;
 }

@@ -1,7 +1,9 @@
 input{
-  width: 40%;
+  position: relative;
+  width: 50%;
   height: 40px;
-  margin:2% 0% 2% 30%;
+  margin:2%;
+  margin-bottom: 10px;
 }
 
 input::placeholder{

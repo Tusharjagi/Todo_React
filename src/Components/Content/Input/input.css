@@ -5,6 +5,7 @@ input{
   margin:2%;
   margin-left: 25%;
   margin-bottom: 10px;
+  font-size: 22px;
 }
 
 input::placeholder{

@@ -1,0 +1,9 @@
+.all-todo{
+  position: relative;
+  display: grid;
+  font-size: 20px;
+  border: solid black 2px;
+  margin: 1% 4%;
+  padding: 4px;
+
+}

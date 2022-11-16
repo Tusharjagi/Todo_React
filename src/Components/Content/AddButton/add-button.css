@@ -16,5 +16,12 @@
   color: #fff;
   text-decoration: none;
   box-shadow: 0px 10px 20px #813a31;
-  transform: translateY(-7px);
+  transform: translateY(-4px);
 }
+
+.add-button:focus {
+  /* color: #813a31; */
+  transform: translateY(+4px);
+  box-shadow: 10px 0px 20px 0px  #813a31;
+}
+

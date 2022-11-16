@@ -1,12 +1,14 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Pacifico'
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Pacifico'
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(229,170,195);
-background: linear-gradient(90deg, rgba(229,170,195,1) 17%, rgba(154,82,199,1) 62%);}
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(215,225,236,1) 98%);
+
+}
 
 @font-face {
   font-family: 'PermanentMarker-Regular';

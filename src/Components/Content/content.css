@@ -3,5 +3,6 @@
   border: solid grey 2px;
   /* justify-items: center; */
   margin: 0% 10%;
-  background-color: aliceblue;
+  background: rgb(184,198,219);
+background: radial-gradient(circle, rgba(184,198,219,1) 28%, rgba(245,247,250,1) 85%);
 }

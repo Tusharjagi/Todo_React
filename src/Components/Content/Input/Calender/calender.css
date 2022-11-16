@@ -1,0 +1,70 @@
+.calender {
+  background-color: beige;
+  /* background-color: #89C4F4; */
+  margin-left: 39%;
+  margin-top: 2%;
+  margin-right: auto;
+}
+
+input.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 12px 0px 6px 15px;
+  /* padding-top: 2px; */
+  margin: 0px;
+  padding-right: 0px;
+  word-spacing: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #3B3486;
+  letter-spacing: 3px;
+}
+
+svg.css-i4bv87-MuiSvgIcon-root {
+  font-size: 35px;
+}
+
+div.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+  /* padding-top: ; */
+  font-family: Marhey-VariableFont;
+  /* border: solid #3B3486 2px; */
+}
+
+label.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+  font-size: 20px;
+  color: #3B3486;
+}
+
+div.css-169iwlq-MuiCalendarPicker-root{
+  background-color: #121212;
+  /* background-color: red; */
+  border-radius: 10px;
+  border: solid 2px;
+}
+
+div.css-10fao8b-MuiPickersCalendarHeader-labelContainer{
+  color: white;
+  font-weight: bold;
+}
+svg.css-1tkx1wf-MuiSvgIcon-root-MuiPickersCalendarHeader-switchViewIcon{
+  color: white;
+}
+
+svg.css-i4bv87-MuiSvgIcon-root{
+  color: black;
+}
+
+span.css-raiqh1-MuiTypography-root-MuiDayPicker-weekDayLabel{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+button.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #121212;
+}
+
+div.css-1yllih9-MuiPaper-root-MuiPickersPopper-paper{
+  border-radius: 10px;
+}

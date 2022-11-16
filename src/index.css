@@ -20,6 +20,12 @@ body {
   src: local('RubikBubbles-Regular'), url(../font/RubikBubbles-Regular.ttf) format('trueType');
 }
 
+@font-face {
+  font-family: 'Marhey-VariableFont';
+  src: local('Marhey-VariableFont'), url(../font/Marhey-VariableFont_wght.ttf) format('trueType');
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

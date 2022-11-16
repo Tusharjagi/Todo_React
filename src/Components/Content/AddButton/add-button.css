@@ -5,11 +5,9 @@
   margin: 2% 40%; 
   border: none;
   background-image: linear-gradient(to left, #484baa 0%, #395212  51%, #3d3a0b  100%);
-  transition: 0.5s;
-  background-size: 200% auto;
+  transition: 0.3s;
   color: #a77f03;
   font-weight: bold;
-  box-shadow: 0 0 20px #eee;
   border-radius: 20px;
 }
 
@@ -17,6 +15,6 @@
   background-position: right center;
   color: #fff;
   text-decoration: none;
-  box-shadow: 0px 15px 20px #813a31;
+  box-shadow: 0px 10px 20px #813a31;
   transform: translateY(-7px);
 }

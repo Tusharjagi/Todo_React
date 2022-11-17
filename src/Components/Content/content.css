@@ -1,4 +1,5 @@
 .content {
+  position: relative;
   display: grid;
   border-radius: 10px;
   margin: 0% 10%;

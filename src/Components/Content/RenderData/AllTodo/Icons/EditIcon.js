@@ -4,8 +4,11 @@ import './icons.css';
 
 const EditButtons = () => {
   return (
-    <IconButton className="edit-button" aria-label="delete">
-      <EditIcon />
+    <IconButton className="icon-button" aria-label="delete">
+      <EditIcon style={{ color: "#1D1CE5",marginLeft:'5px',
+      marginTop:'0px',
+    marginRight:'160px',
+    position: 'absolute' }} className />
     </IconButton>
   );
 };

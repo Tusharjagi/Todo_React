@@ -5,8 +5,11 @@ import './icons.css';
 
 const DeleteButton = () => {
   return (
-    <IconButton className="delete-button" aria-label="delete">
-      <DeleteIcon  />
+    <IconButton className="icon-button" aria-label="delete">
+      <DeleteIcon style={{ color: 'red',marginLeft:'5px',
+    marginRight:'80px',
+    position: 'absolute',
+     }}/>
     </IconButton>
   );
 };

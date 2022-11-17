@@ -25,6 +25,11 @@ body {
   src: local('Marhey-VariableFont'), url(../font/Marhey-VariableFont_wght.ttf) format('trueType');
 }
 
+@font-face {
+  font-family: 'Sono-VariableFont_MONO';
+  src: local('Sono-VariableFont_MONO'), url(../font/Sono-VariableFont_MONO\,wght.ttf) format('trueType');
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

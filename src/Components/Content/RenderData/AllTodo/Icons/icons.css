@@ -1,7 +1,5 @@
-.edit-button{
+.icon-button {
   float: right;
-}
-
-.delete-button{
-  float: right;
+  margin-left: 5px;
+  margin-right: 80px;
 }

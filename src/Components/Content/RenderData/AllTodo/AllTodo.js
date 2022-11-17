@@ -23,6 +23,66 @@ const AllTodo = () => {
       <button className="edit-button" >Edit </button>
       <span className="all-todo">Here is your task </span>
     </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
+    <div>
+      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+      <button className="delete-button" >Delete</button>
+      <button className="edit-button" >Edit </button>
+      <span className="all-todo">Here is your task </span>
+    </div>
     </>
   );
 };

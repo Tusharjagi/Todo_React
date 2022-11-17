@@ -9,6 +9,8 @@
   font-family: PermanentMarker-Regular;
   padding-left: 20px;
   letter-spacing: 3px;
+  text-decoration:none;
+display:inline-block;
 }
 
 input::placeholder{

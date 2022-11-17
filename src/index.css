@@ -35,3 +35,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::selection {
+  color: rgb(180, 242, 158);
+  background: #454696;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #dee6ef;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3d4067;
+  border-radius: 10px;
+}

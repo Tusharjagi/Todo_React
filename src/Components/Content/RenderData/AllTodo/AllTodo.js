@@ -1,6 +1,5 @@
 import "./all-todo.css";
 import DoneOutlineTwoToneIcon from "@mui/icons-material/DoneOutlineTwoTone";
-import EditIcon from '@mui/icons-material/Edit';
 
 const AllTodo = () => {
   return (

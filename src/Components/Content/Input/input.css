@@ -17,3 +17,29 @@ input::placeholder{
   font-size: 18px;
   padding-left: 20px;
 }
+
+.add-button{
+  position: relative;
+  font-size: 30px;
+  padding: 10px 110px;
+  margin: 2% 40%; 
+  border: none;
+  background-image: linear-gradient(to left, #484baa 0%, #395212  51%, #3d3a0b  100%);
+  transition: 0.3s;
+  color: #a77f03;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.add-button:hover {
+  background-position: right center;
+  text-decoration: none;
+  box-shadow: 5px 10px 25px #813a31;
+  transform: translateY(-4px);
+}
+
+.add-button:focus {
+  transform: translateY(+4px);
+  box-shadow: 10px 0px 20px 0px  #813a31;
+}
+

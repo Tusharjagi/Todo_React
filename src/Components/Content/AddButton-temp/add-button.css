@@ -1,10 +1,10 @@
-.add-button{
+.add-button {
   position: relative;
   font-size: 30px;
-  padding: 10px 25px;
-  margin: 2% 40%; 
+  padding: 10px 50px;
+  margin: 2% 40%;
   border: none;
-  background-image: linear-gradient(to left, #484baa 0%, #395212  51%, #3d3a0b  100%);
+  background-image: linear-gradient(to left, #484baa 0%, #395212 51%, #3d3a0b 100%);
   transition: 0.3s;
   color: #a77f03;
   font-weight: bold;
@@ -20,6 +20,5 @@
 
 .add-button:focus {
   transform: translateY(+4px);
-  box-shadow: 10px 0px 20px 0px  #813a31;
+  box-shadow: 10px 0px 20px 0px #813a31;
 }
-

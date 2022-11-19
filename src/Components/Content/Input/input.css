@@ -21,7 +21,7 @@ input::placeholder{
 .add-button{
   position: relative;
   font-size: 30px;
-  padding: 10px 110px;
+  padding: 10px 7.8%;
   margin: 2% 40%; 
   border: none;
   background-image: linear-gradient(to left, #484baa 0%, #395212  51%, #3d3a0b  100%);

@@ -19,7 +19,6 @@ const Input = () => {
       <input
         className="ToInput"
         spellCheck="false"
-        // type="text"
         value={value}
         placeholder="Add New Task"
         onChange={(e) => setValue(e.target.value)}

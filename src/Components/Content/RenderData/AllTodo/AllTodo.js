@@ -13,8 +13,8 @@ const AllTodo = ({ data, values }) => {
         <span className="all-todo">
           {lists}
           <span>
-            {values.date()}/{values.month()}/{values.year()}/{values.hour()}/
-            {values.minute()}
+            Date: {values.date()}/{values.month()}/{values.year()}{" "}
+            Time: {values.hour()}:{values.minute()}
           </span>
         </span>
       </div>

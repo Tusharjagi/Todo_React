@@ -2,14 +2,6 @@ import "./all-todo.css";
 import DoneOutlineTwoToneIcon from "@mui/icons-material/DoneOutlineTwoTone";
 
 const AllTodo = ({ data, values }) => {
-  console.log(
-    values.date(),
-    values.month(),
-    values.year(),
-    values.hour(),
-    values.minute()
-  );
-
   const displayData = data.map((lists) => {
     return (
       <div key={lists}>

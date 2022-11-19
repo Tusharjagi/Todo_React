@@ -1,23 +1,19 @@
+import AddButton from "../AddButton/AddButton";
 import Calender from "./Calender/Calender";
 import "./input.css";
 
-const Input = (props) => {
+const Input = ({onHandleSubmit, value, onChange}) => {
   return (
-    <form onSubmit={props.onHandleSubmit} >
+    <form onSubmit={onHandleSubmit}>
       <input
         className="ToInput"
         spellCheck="false"
-        value={props.value}
+        value={value}
         placeholder="Add New Task"
-        onChange={(e) => props.onChange(e)}
+        onChange={(e) => onChange(e)}
       />
       <Calender />
-      <button
-        className="add-button"
-        type="submit"
-      >
-        ADD
-      </button>
+      <AddButton onHandleSubmit={onHandleSubmit} />
     </form>
   );
 };

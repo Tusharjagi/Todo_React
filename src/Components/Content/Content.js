@@ -4,20 +4,19 @@ import RenderData from "./RenderData/RenderData";
 import { useState } from "react";
 
 const Content = () => {
-
   const [value, setValue] = useState("");
   const [inputText, setInputText] = useState([]);
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    const data = [...inputText,value];
+    e.preventDefault();
+    const data = [...inputText, value];
     setInputText(data);
-    setValue('');
+    setValue("");
   };
 
   const onChange = (e) => {
-    setValue(e.target.value)
-  }
+    setValue(e.target.value);
+  };
 
   return (
     <div className="content">

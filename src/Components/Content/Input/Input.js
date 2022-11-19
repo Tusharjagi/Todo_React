@@ -1,32 +1,19 @@
-import { useState } from "react";
 import Calender from "./Calender/Calender";
 import "./input.css";
 
-const Input = () => {
-  const [value, setValue] = useState("");
-  const [inputText, setInputText] = useState([]);
-  console.log(inputText);
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    const data = [...inputText,value];
-    setInputText(data);
-    setValue('');
-  };
-
+const Input = (props) => {
   return (
-    <form onSubmit={handleSubmit} >
+    <form onSubmit={props.onHandleSubmit} >
       <input
         className="ToInput"
         spellCheck="false"
-        value={value}
+        value={props.value}
         placeholder="Add New Task"
-        onChange={(e) => setValue(e.target.value)}
+        onChange={(e) => props.onChange(e)}
       />
       <Calender />
       <button
         className="add-button"
-        
         type="submit"
       >
         ADD

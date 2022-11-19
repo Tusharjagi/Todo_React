@@ -1,10 +1,10 @@
 import AllTodo from "./AllTodo/AllTodo"
 import "./render-data.css";
 
-const RenderData = () => {
+const RenderData = ({data}) => {
   return(
     <div className="render-data">
-      <AllTodo/>
+      <AllTodo data={data} />
     </div>
   )
 };

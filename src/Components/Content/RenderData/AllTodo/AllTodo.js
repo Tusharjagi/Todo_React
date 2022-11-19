@@ -1,90 +1,26 @@
 import "./all-todo.css";
 import DoneOutlineTwoToneIcon from "@mui/icons-material/DoneOutlineTwoTone";
 
-const AllTodo = () => {
-  return (
+const AllTodo = ({data}) => {
+  const displayData = data.map((items) => {
+
+    return (
+      <div key={items} >
+        <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
+        <button className="delete-button" >Delete</button>
+        <button className="edit-button" ><span className="edit-text" >Edit</span></button>
+        <span className="all-todo">{ items }</span>
+      </div>
+    );
+
+  });
+
+  return(
     <>
-    
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" ><span className="edit-text" >Edit</span></button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
-    <div>
-      <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-      <button className="delete-button" >Delete</button>
-      <button className="edit-button" >Edit </button>
-      <span className="all-todo">Here is your task </span>
-    </div>
+      {displayData}
     </>
-  );
+  ) ;
+  
 };
 
 export default AllTodo;

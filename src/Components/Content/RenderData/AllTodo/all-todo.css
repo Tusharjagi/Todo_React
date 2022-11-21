@@ -29,7 +29,6 @@
   margin-right: 15px;
   padding: 4px;
   font-weight: bold;
-  /* transform: translateX(-4px); */
   transition: 0.3s;
   background-color: #E0144C;
   color: white;
@@ -44,7 +43,6 @@
 }
 
 .delete-button:focus{
-  /* transform: translateX(100px); */
   opacity: 100%;
   opacity: 0;
 }
@@ -56,7 +54,6 @@
   margin-top: 2px;
   margin-right: 20px;
   padding: 4px;
-  /* padding-bottom: 4px; */
   font-weight: bold;
   transform: translateX(-4px);
   transition: 0.3s;
@@ -64,23 +61,6 @@
   background-color: #2146C7;
   color: white;
   border: solid #2146C7 2px;
-  /* display: none; */
-}
-
-.edit-text{
-  /* font-size: 10px; */
-  /* text-indent: 100%; */
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    /* display: none; */
-    /* margin-bottom: 10px; */
-    /* padding-bottom: -10px; */
-
-}
-
-.edit-text:hover{
-  /* display: none; */
-  /* display: block; */
 }
 
 .edit-button:hover{
@@ -90,7 +70,6 @@
 }
 
 .edit-button:focus{
-  /* transform: translateX(-100px); */
   opacity: 0.9;
   opacity: 0;
 }

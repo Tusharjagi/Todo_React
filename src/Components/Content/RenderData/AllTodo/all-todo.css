@@ -29,7 +29,7 @@
   margin-right: 15px;
   padding: 4px;
   font-weight: bold;
-  transform: translateX(-4px);
+  /* transform: translateX(-4px); */
   transition: 0.3s;
   background-color: #E0144C;
   color: white;
@@ -40,12 +40,12 @@
 .delete-button:hover{
   transform: translateX(+4px);
   box-shadow: 0px 5px 20px red;
-  /* opacity: 0.5; */
+  opacity: 0.9;
 }
 
 .delete-button:focus{
-  transform: translateX(100px);
-  /* opacity: 100%; */
+  /* transform: translateX(100px); */
+  opacity: 100%;
   opacity: 0;
 }
 
@@ -90,6 +90,7 @@
 }
 
 .edit-button:focus{
-  transform: translateX(-100px);
+  /* transform: translateX(-100px); */
+  opacity: 0.9;
   opacity: 0;
 }

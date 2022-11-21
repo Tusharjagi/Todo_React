@@ -68,3 +68,42 @@ button.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root{
 div.css-1yllih9-MuiPaper-root-MuiPickersPopper-paper{
   border-radius: 10px;
 }
+
+button.css-3eghsz-PrivatePickersYear-button{
+  color: white;
+}
+
+div.css-tfwo93-MuiClock-squareMask{
+  background-color: gray;
+}
+
+div.css-1jm66jt-MuiClockPicker-root{
+  background-color: black;
+  border-radius: 10px;
+}
+
+div.css-d0vs79-MuiClockPointer-root{
+  background-color: white;
+}
+
+div.css-umzx0k-MuiClock-pin{
+  background-color: white;
+}
+
+span.css-53ccts-MuiClockNumber-root{
+  color: white;
+  font-size: 16px;
+}
+
+span.css-zddqwy-MuiClockNumber-root{
+  color: white;
+  font-size: 16px;
+}
+
+button.css-1ae9t7h-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button.Mui-disabled{
+  background-color: white;
+}
+
+button.css-jro82b-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button{
+  background-color: white;
+}

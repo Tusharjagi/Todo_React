@@ -28,12 +28,10 @@ const Content = () => {
     setValues(newValue);
   };
 
-  // Calender
-
   return (
     <div className="content">
       <Input onHandleSubmit={handleSubmit} onChange={onChange} value={value} values={values} handleChange={handleChange} />
-      <RenderData data={inputText}  values={values}/>
+      <RenderData data={inputText}  values={values} />
     </div>
   );
 };

@@ -5,23 +5,22 @@ const AllTodo = ({ data, values }) => {
   // const date = values.date()
   // const month = values.month()
   // const year = values.year()
-  
-  const displayData = data.map((lists) => {
 
+  const displayData = data.map((lists) => {
     const handleDelete = () => {
       console.log("Handle Delete");
     };
 
     const handleEdit = () => {
-      console.log("Handle Edit")
-    }
+      console.log("Handle Edit");
+    };
 
     return (
       <div key={lists}>
         {/* <button onClick={handleDelete} >check</button> */}
         <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-        
-        <button className="delete-button" onClick={handleDelete} >
+
+        <button className="delete-button" onClick={handleDelete}>
           Delete
         </button>
         <button className="edit-button" onClick={handleEdit}>
@@ -29,8 +28,10 @@ const AllTodo = ({ data, values }) => {
         </button>
         <span className="all-todo">
           {lists}
-          <span>
-            Date: {values.date()}/{values.month()}/{values.year()} Time:{" "}
+          <span className="date">
+            {values.date()}/{values.month()+1}/{values.year()}
+          </span>
+          <span className="time">
             {values.hour()}:{values.minute()}
           </span>
         </span>

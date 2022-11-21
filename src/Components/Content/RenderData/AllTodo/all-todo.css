@@ -94,3 +94,30 @@
   opacity: 0.9;
   opacity: 0;
 }
+
+.date{
+  position: absolute;
+  margin-top: 0.3%;
+  margin-left: 92%;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.date:hover{
+  font-size: 20px;
+  transform: translateX(-50px);
+}
+
+.time{
+  position: absolute;
+  margin-left: 94%;
+  margin-top: 1.6%;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.time:hover{
+  font-size: 20px;
+  transform: translateX(-20px);
+  transform: translateY(-5px);
+}

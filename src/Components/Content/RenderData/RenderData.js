@@ -10,7 +10,8 @@ const RenderData = ({ data, values }) => {
     ""
   );
 
-  return <>{LoadingData}</>;
+  return <>{LoadingData}
+  </>;
 };
 
 export default RenderData;

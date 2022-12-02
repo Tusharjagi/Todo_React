@@ -1,4 +1,4 @@
-import "./content.css";
+import "./content.scss";
 import Input from "./Input/Input";
 import RenderData from "./RenderData/RenderData";
 import { useState } from "react";

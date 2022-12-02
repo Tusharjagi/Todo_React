@@ -1,5 +1,5 @@
 import AllTodo from "./AllTodo/AllTodo";
-import "./render-data.css";
+import "./render-data.scss";
 
 const RenderData = ({ data, values }) => {
   const LoadingData = data.length ? (

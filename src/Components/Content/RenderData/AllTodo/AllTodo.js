@@ -1,4 +1,4 @@
-import "./all-todo.css";
+import "./all-todo.scss";
 import DoneOutlineTwoToneIcon from "@mui/icons-material/DoneOutlineTwoTone";
 
 const AllTodo = ({ data, values }) => {

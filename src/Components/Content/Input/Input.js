@@ -1,4 +1,4 @@
-import "./input.css";
+import "./input.scss";
 import AddButton from "../AddButton/AddButton";
 import Calender from "./Calender/Calender";
 

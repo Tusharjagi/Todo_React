@@ -1,4 +1,4 @@
-import "./add-button.css";
+import "./add-button.scss";
 
 const AddButton = ({ onHandleSubmit }) => {
   return (

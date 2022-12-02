@@ -9,13 +9,14 @@ const Content = () => {
   const [value, setValue] = useState("");
   const [inputText, setInputText] = useState([]);
   const [values, setValues] = useState(dayjs());
-  const [objData, setObjData] = useState({})
-  console.log(objData)
+  // const [objData, setObjData] = useState({})
+  // console.log(objData)
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = {...objData, value};
-    setObjData(data);
+    const data = [...inputText, value];
+    setInputText(data);
     setValue("");
   };
 
@@ -32,7 +33,7 @@ const Content = () => {
   return (
     <div className="content">
       <Input onHandleSubmit={handleSubmit} onChange={onChange} value={value} values={values} handleChange={handleChange} />
-      <RenderData data={objData}  values={values} />
+      <RenderData data={inputText}  values={values} />
     </div>
   );
 };

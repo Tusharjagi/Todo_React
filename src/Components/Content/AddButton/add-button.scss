@@ -1,8 +1,11 @@
 .add-button{
   position: relative;
-  font-size: 30px;
-  padding: 10px 7.8%;
-  margin: 2% 40%; 
+  font-size: 1.875em;
+  padding: 0.40rem 3rem;
+  // margin: 2em 41.6%; 
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  // margin-left: 50vw;
   border: none;
   background-image: linear-gradient(to left, #484baa 0%, #395212  51%, #3d3a0b  100%);
   transition: 0.3s;

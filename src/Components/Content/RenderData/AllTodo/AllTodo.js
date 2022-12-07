@@ -15,17 +15,15 @@ const AllTodo = ({ data, values }) => {
       console.log("Handle Edit");
     };
 
-    const handleCheckIcon = () => {
-      // console.log("check Icon");
+    const handleDoneIcon = () => {
+      console.log("check Icon");
       
     }
 
     return (
-      <div key={lists}>
-        <span onClick={handleCheckIcon} >
-          
-        <DoneOutlineTwoToneIcon className="done" style={{ color: "green" }} />
-        </span>
+      <div key={lists} className="main-rendered-div">
+
+        <DoneOutlineTwoToneIcon className="done-icon" onClick={handleDoneIcon} style={{ color: "green" }} />
 
         <button className="delete-button" onClick={handleDelete}>
           Delete
@@ -37,6 +35,7 @@ const AllTodo = ({ data, values }) => {
           <span className="todo-text" >
 
           {lists}
+  
           </span>
           {/* <div className="date">
             {values.date()}/{values.month()+1}/{values.year()}

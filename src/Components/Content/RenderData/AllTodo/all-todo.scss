@@ -12,7 +12,7 @@
   font-weight: bold;
 }
 
-.todo-text{
+.todo-text {
   background-color: #B7C4CF;
   padding: 10px 15px 5px 10px;
   border-radius: 10px;
@@ -24,15 +24,14 @@
   cursor: pointer;
 }
 
-.done-icon:hover{
+.done-icon:hover {
   transform: scale(1.3);
   transition: 0.3s;
 }
 
-.done-icon:focus{
+.done-icon:focus {
   opacity: 0;
   transform: scale(1.10);
-  
 }
 
 .delete-button {
@@ -50,13 +49,13 @@
   border-radius: 0.625em;
 }
 
-.delete-button:hover{
+.delete-button:hover {
   transform: translateX(4px);
   box-shadow: 0em 0.3125em 1.25em red;
   opacity: 0.9;
 }
 
-.delete-button:focus{
+.delete-button:focus {
   opacity: 0;
 }
 
@@ -76,39 +75,40 @@
   border: solid #2146C7 0.125em;
 }
 
-.edit-button:hover{
+.edit-button:hover {
   transform: translateX(+4px);
   box-shadow: 0em 0.3125em 1.25em blue;
   display: block;
 }
 
-.edit-button:focus{
+.edit-button:focus {
   opacity: 0.9;
   opacity: 0;
 }
 
-.date{
+.date {
   position: absolute;
   margin: unset;
   // margin-left: 1000px;
-  padding-left: 100%;;
+  padding-left: 100%;
+  ;
   font-size: 0.75em;
   transition: 0.2s;
 }
 
-.date:hover{
+.date:hover {
   font-size: 20px;
   transform: translateX(-10px);
 }
 
-.time{
+.time {
   position: absolute;
   font-size: 0.75em;
   transition: 0.2s;
   margin-left: 10%;
 }
 
-.time:hover{
+.time:hover {
   font-size: 1.25em;
   transform: translateX(-20px);
   transform: translateY(-5px);

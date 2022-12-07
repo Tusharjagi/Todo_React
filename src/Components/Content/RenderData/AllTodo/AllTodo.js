@@ -38,13 +38,14 @@ const AllTodo = ({ data, values }) => {
 
           {lists}
           </span>
-          <span className="date">
+          {/* <div className="date">
             {values.date()}/{values.month()+1}/{values.year()}
-          </span>
-          <span className="time">
+          </div>
+          <div className="time">
             {values.hour()}:{values.minute()}
-          </span>
+          </div> */}
         </span>
+        {/* <hr/> */}
       </div>
     );
   });

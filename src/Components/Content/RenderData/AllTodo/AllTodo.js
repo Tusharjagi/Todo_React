@@ -31,14 +31,15 @@ const AllTodo = ({ data, values }) => {
         </button>
         <span className="all-todo">
           <span className="todo-text">{lists}</span>
-          {/* <div className="date">
-            {values.date()}/{values.month() + 1}/{values.year()}
+        </span>
+          <div className="date">
+            {values.date()} / {values.month() + 1} / {values.year()}
           </div>
           <div className="time">
-            {values.hour()}:{values.minute()}
-          </div> */}
-        </span>
-        {/* <hr/> */}
+            {values.hour()} : {values.minute()}
+          </div>
+
+        <hr className="hr-line" />
       </div>
     );
   });

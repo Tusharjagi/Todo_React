@@ -2,6 +2,7 @@ import "./all-todo.scss";
 import DoneOutlineTwoToneIcon from "@mui/icons-material/DoneOutlineTwoTone";
 
 const AllTodo = ({ data, values }) => {
+  console.log(data);
   const displayData = data.map((lists) => {
     const handleDelete = () => {
       console.log("Handle Delete");
@@ -32,12 +33,12 @@ const AllTodo = ({ data, values }) => {
         <span className="all-todo">
           <span className="todo-text">{lists}</span>
         </span>
-          <div className="date">
-            {values.date()} / {values.month() + 1} / {values.year()}
-          </div>
-          <div className="time">
-            {values.hour()} : {values.minute()}
-          </div>
+        <div className="date">
+          {values.date()} / {values.month() + 1} / {values.year()}
+        </div>
+        <div className="time">
+          {values.hour()} : {values.minute()}
+        </div>
 
         <hr className="hr-line" />
       </div>

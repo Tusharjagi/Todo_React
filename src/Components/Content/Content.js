@@ -4,36 +4,45 @@ import RenderData from "./RenderData/RenderData";
 import { useState } from "react";
 import dayjs from "dayjs";
 
-
 const Content = () => {
-  const [value, setValue] = useState("");
-  const [inputText, setInputText] = useState([]);
-  const [values, setValues] = useState(dayjs());
-  // const [objData, setObjData] = useState({})
-  // console.log(objData)
-
+  const [textValue, setTextValue] = useState("");
+  const [dayAndTime, setDayAndTime] = useState(dayjs());
+  const [data, setData] = useState([]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = [...inputText, value];
-    setInputText(data);
-    setValue("");
+    const text = { textValue };
+    const time = { dayAndTime };
+
+    // let  = [{...text},{...time}];
+    // setData(text, time,arr);
+    // const key = key + 1;
+    // const dataa = [{...textValue, data}, {...dayAndTime,da}]
+    // console.log(
+    //   `TextValue - ${text.textValue},\ndatAndTime - ${time.dayAndTime}`
+    // );
+    console.log(data);
+    setTextValue("");
   };
 
   const onChange = (e) => {
-    setValue(e.target.value);
+    setTextValue(e.target.value);
   };
 
-  // Calender
-
   const handleChange = (newValue) => {
-    setValues(newValue);
+    setDayAndTime(newValue);
   };
 
   return (
     <div className="content">
-      <Input onHandleSubmit={handleSubmit} onChange={onChange} value={value} values={values} handleChange={handleChange} />
-      <RenderData data={inputText}  values={values} />
+      <Input
+        onHandleSubmit={handleSubmit}
+        onChange={onChange}
+        value={textValue}
+        values={dayAndTime}
+        handleChange={handleChange}
+      />
+      {/* <RenderData data={inputText} values={inputDateTime} /> */}
     </div>
   );
 };
